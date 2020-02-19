@@ -1,0 +1,123 @@
+<html>
+<head>
+	<title>Registration Form</title>
+	<script type="text/javascript" src="../db/validation.js"></script>
+
+  <style>
+		body
+		{
+			background-image:url("tools.jpg");background-repeat:no-repeat;
+                        background-size=100%;
+
+		}
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.85;
+  align:center
+}
+	
+   </style>
+</head>
+<body>
+
+
+	
+<br><br><br><br><br>
+<form method="POST" >
+<table align="center" class="transbox" height="250" width="250">
+			<tr>
+					<th colspan="2px" align="center"><h1> Edit Your Information</h1> </th>
+				</tr>
+			<tr>
+					<td>Id: </td>
+					<td><input type="text" name="id" placeholder="Enter id"></td>
+					<td width="500px"><div id="idDiv"></div></td>
+				</tr>
+			<tr>
+					<td>Userame: </td>
+					<td><input type="text" name="name" placeholder="Enter name"></td>
+					<td width="500px"><div id="namediv"></div></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="pass" placeholder="Enter Password"></td>
+				     <td width="500px"><div id="passDiv"></div></td>
+						</tr>
+					     <tr>
+				    <td>Confirm Password:</td>
+                   <td><input type="password" name="cpass"  placeholder="Enter confirm Password"></td>
+				   <td width="500px"><div id="passDiv"></div></td>
+                </tr>	
+				<tr>
+					<td>DOB:</td>
+					<td><input type="date" name="dob" ></td>
+				</tr>
+				<tr>
+					<td>Contact no:</td>
+					<td><input type="text" name="cno"  placeholder="Enter contact no" ></td>
+					<td width="500px"><div id="cnoDiv"></div></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="text" name="email"    placeholder="Enter email address"></td>
+					<td width="500px"><div id="emailDiv"></div></td>
+				</tr>
+				<tr>
+					<td><b><center>Address:</b></td>
+					
+				</tr>
+				<tr>
+					<td>House:</td>
+					<td><input type="text" name="house"   placeholder="Enter your house no."></td>
+					<td width="500px"><div id="emailDiv"></div></td>
+				</tr>
+				<tr>
+					<td>Road no:</td>
+					<td><input type="text" name="road"    placeholder="Enter your road no."></td>
+					<td width="500px"><div id="emailDiv"></div></td>
+				</tr>
+				<tr>
+					<td>City:</td>
+					<td><input type="text" name="city"  placeholder="Enter your city"></td>
+					<td width="500px"><div id="emailDiv"></div></td>
+				</tr>
+				<td>Division</td>
+                <td> <select name="division" id="division">
+						<option value=""></option>
+						<option value="Dhaka">Dhaka</option>
+						<option value="Rangpur">Rangpur</option>
+						<option value="Sylhet">Sylhet</option>
+						<option value="Chittagong">Chittagong</option>
+						<option value="Khulna">Khulna</option>
+						<option value="Rajshahi">Rajshahi</option>
+						 </td>
+</tr>
+				<tr>
+					<td>Gender:</td>
+					<td>
+						<input type="radio" name="gender" id="gender" value="Male"> male &emsp;
+						<input type="radio" name="gender" id="gender" value="Female"> female &emsp;
+						<input type="radio" name="gender" id="gender"value="Other"> other
+					</td>
+				</tr>
+				
+				
+					</td>
+				</tr>
+				<tr align="center">
+			<td colspan="2"><input type="submit" name="reg">
+			</tr>
+			<tr align="center">
+				
+			    <td colspan="2"><a href="Home.html">Back</a></td>
+			</tr>
+			</table>
+	
+				
+				</form>
+				</body>
+				</html>
+				
+				
